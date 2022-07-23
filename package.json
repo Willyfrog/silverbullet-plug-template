@@ -1,0 +1,16 @@
+{
+  "name": "hello_world",
+  "version": "0.0.1",
+  "author": "A Lone Ranger",
+  "scripts": {
+    "build": "plugos-bundle --exclude yaml handlebars @lezer/lr -- helloWorld.plug.yaml",
+    "start": "plugos-bundle -w --exclude yaml handlebars @lezer/lr -- helloWorld.plug.yaml"
+  },
+  "dependencies": {
+    "@silverbulletmd/plugos-silverbullet-syscall": "^0.0.26",
+    "@silverbulletmd/plugs": "^0.0.26"
+  },
+  "devDependencies": {
+    "@plugos/plugos": "^0.0.26"
+  }
+}

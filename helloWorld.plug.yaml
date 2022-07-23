@@ -1,0 +1,7 @@
+name: hello-world
+version: 0.1
+functions:
+  helloWorld:
+    path: "./hello.ts:helloWorld"
+    command:
+      name: "Say hello"
